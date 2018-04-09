@@ -1,11 +1,15 @@
 <?php 
 /*
-Plugin Name: Woocommerce default endpoints customization
+Plugin Name: WooCommerce Default Endpoints Customization
 Description: The plugin modifies woocommerce default endpoints.
 Version: 1.1.1.0
 Author:      codup.io
 Author URI:  http://codup.io/
 */
+
+if ( ! defined( 'ABSPATH' ) ) {
+  exit; // Exit if accessed directly
+}
 
 if (!defined('DS')) {
     define("DS", DIRECTORY_SEPARATOR);

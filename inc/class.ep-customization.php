@@ -1,13 +1,8 @@
 <?php
 
 class EPC_Class {
-
-    public function __construct() {      
-     
-
+    public function __construct() {
         add_filter( 'woocommerce_api_order_response', array($this, 'EPC_wc_api_order_response'), 10, 1 ); 
-
-
     }
 
     public function EPC_wc_api_order_response( $order_data ) {
@@ -29,6 +24,4 @@ class EPC_Class {
         $order_data['no_of_subscriptions']  = 0;
         return $order_data;
     }
-    
-    
 }
