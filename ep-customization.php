@@ -1,10 +1,10 @@
 <?php 
 /*
 Plugin Name: WooCommerce Default Endpoints Customization
-Description: The plugin modifies woocommerce default endpoints.
+Description: This plugin modifies woocommerce default endpoint to include the amount of orders in a subscription.  Plugin originally developed by Codup.io and modified by Duane Leem with bug fixes.
 Version: 1.1.2
-Author:      codup.io
-Author URI:  http://codup.io/
+Author:      Duane Leem
+Author URI:  https://duaneleem.com/
 */
 
 if ( ! defined( 'ABSPATH' ) ) {
